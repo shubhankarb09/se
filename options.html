@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Options</title>
+        <style>
+            h2 {
+                width: 100%;
+                text-align: center;
+            }
+
+            #options{
+                background-color: none;
+                border-style: solid;
+                border-width: 2px;
+                border-color: gray;
+                text-align: center;
+                padding: 100px;
+            }
+
+            html{
+                display: flex;
+                justify-content: center;
+                flex: 1;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div id="options">
+            <h2>Options</h2>
+            Change bugs' color #1: 
+            <select id="color1">
+            <option value="red">Red</option>
+            <option value="black">Black</option>
+            </select>
+            <br>
+            Change bugs' color #2:
+            <select id="color2">
+            <option value="red">Red</option>
+            <option value="black">Black</option>
+            </select>
+            <br>
+            Number of iterations:
+            <input type="number" id="iterations">
+            <br>
+            The duration of a tick in seconds:
+            <input type="number" id="tick_duration">
+            <br>
+        </div>
+    </body>
+</html>
